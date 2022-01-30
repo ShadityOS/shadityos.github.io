@@ -123,15 +123,14 @@
                                     </div>
                                 </div>
                                 <div class="grid__item">
-                                    <a href="https://shadityos.blogspot.com" target="_blank">
-                                        <div class="product">
-                                            <div class="tm-nav-link">
-                                                <i class="far fa-newspaper fa-3x"></i>
-                                                <span class="tm-nav-text">News</span>
-                                                <div class="product__bg"></div>             
-                                            </div>
-                                        </div>
-                                    </a>
+                                    <div class="product" onclick="window.open('https://shadityos.blogspot.com','_self');">
+                                        <div class="tm-nav-link">
+                                            <i class="far fa-newspaper fa-3x"></i>
+                                            <span class="tm-nav-text">News</span>
+                                            <div class="product__bg"></div>             
+                                        </div>                                                              
+                                        <div class="product__description"></div>    
+                                    </div>
                                 </div>
                             </div> 
                         </div>                       
@@ -142,14 +141,11 @@
     </div>
     
     <!-- load JS -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5454256492128681"
-     crossorigin="anonymous"></script>
     <script src="js/jquery-3.2.1.slim.min.js"></script>         <!-- https://jquery.com/ -->    
     <script src="slick/slick.min.js"></script>                  <!-- http://kenwheeler.github.io/slick/ -->  
     <script src="js/anime.min.js"></script>                     <!-- http://animejs.com/ -->
     <script src="js/main.js"></script>  
-    <script>      
-
+    <script>
         function setupFooter() {
             var pageHeight = $('.tm-site-header-container').height() + $('footer').height() + 100;
 
@@ -175,7 +171,6 @@
 
             $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright           
         });
-
     </script>   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>          
     <script> var yourPaypal = 'kanjpatel33@gmail.com'; var textColor = '#ffffff'; var btnColor = '#000000'; var plusColor = '#3bb8d8'; var btnText = 'D O N A T E'; var donateType = 'left'; var bottomType = '1'; 
